@@ -1,0 +1,17 @@
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\bin\Debug\net6.0\MovieRecommendations.Application.deps.json
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\bin\Debug\net6.0\MovieRecommendations.Application.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\bin\Debug\net6.0\ref\MovieRecommendations.Application.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\bin\Debug\net6.0\MovieRecommendations.Application.pdb
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\bin\Debug\net6.0\MovieRecommendations.Domain.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\bin\Debug\net6.0\MovieRecommendations.Domain.pdb
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\MovieRecommendations.Application.csproj.AssemblyReference.cache
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\MovieRecommendations.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\MovieRecommendations.Application.AssemblyInfoInputs.cache
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\MovieRecommendations.Application.AssemblyInfo.cs
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\MovieRecommendations.Application.csproj.CoreCompileInputs.cache
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\MovieRecommendations.Application.csproj.CopyComplete
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\MovieRecommendations.Application.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\ref\MovieRecommendations.Application.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\obj\Debug\net6.0\MovieRecommendations.Application.pdb
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\bin\Debug\net6.0\MovieRecommendations.Infrastructure.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Application\bin\Debug\net6.0\MovieRecommendations.Infrastructure.pdb

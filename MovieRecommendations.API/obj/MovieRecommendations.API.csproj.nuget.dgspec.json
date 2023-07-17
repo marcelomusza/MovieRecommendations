@@ -1,0 +1,314 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations\\MovieRecommendations.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Application\\MovieRecommendations.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Application\\MovieRecommendations.Application.csproj",
+        "projectName": "MovieRecommendations.Application",
+        "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Application\\MovieRecommendations.Application.csproj",
+        "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/orbis-external-ims/orbis-external-ims/_packaging/nuget-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj"
+              },
+              "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Infrastructure\\MovieRecommendations.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Infrastructure\\MovieRecommendations.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj",
+        "projectName": "MovieRecommendations.Domain",
+        "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj",
+        "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/orbis-external-ims/orbis-external-ims/_packaging/nuget-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Infrastructure\\MovieRecommendations.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Infrastructure\\MovieRecommendations.Infrastructure.csproj",
+        "projectName": "MovieRecommendations.Infrastructure",
+        "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Infrastructure\\MovieRecommendations.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/orbis-external-ims/orbis-external-ims/_packaging/nuget-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations\\MovieRecommendations.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations\\MovieRecommendations.API.csproj",
+        "projectName": "MovieRecommendations.API",
+        "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations\\MovieRecommendations.API.csproj",
+        "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/orbis-external-ims/orbis-external-ims/_packaging/nuget-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Application\\MovieRecommendations.Application.csproj": {
+                "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Application\\MovieRecommendations.Application.csproj"
+              },
+              "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Domain\\MovieRecommendations.Domain.csproj"
+              },
+              "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Infrastructure\\MovieRecommendations.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.Infrastructure\\MovieRecommendations.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

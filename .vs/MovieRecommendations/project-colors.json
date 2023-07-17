@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b008c6bf-912d-4c0b-9f54-277b7e727eaf": {
+      "ProjectGuid": "b008c6bf-912d-4c0b-9f54-277b7e727eaf",
+      "DisplayName": "MovieRecommendations.API",
+      "ColorIndex": 0
+    },
+    "d6fe9055-6fca-40f2-83fd-cfe572c551a5": {
+      "ProjectGuid": "d6fe9055-6fca-40f2-83fd-cfe572c551a5",
+      "DisplayName": "MovieRecommendations.Application",
+      "ColorIndex": 1
+    },
+    "02ce6df4-d217-4805-9688-be343b55b5a0": {
+      "ProjectGuid": "02ce6df4-d217-4805-9688-be343b55b5a0",
+      "DisplayName": "MovieRecommendations.Domain",
+      "ColorIndex": 2
+    },
+    "e5f8b78c-5781-4aec-b58e-a86f962d33aa": {
+      "ProjectGuid": "e5f8b78c-5781-4aec-b58e-a86f962d33aa",
+      "DisplayName": "MovieRecommendations.Infrastructure",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

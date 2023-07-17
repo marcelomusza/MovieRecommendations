@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "45eLLOoXEeTCqML77XEn8ZcXI9cgjVFTvcjQVrsfFPc=",
+  "Source": "MovieRecommendations.API",
+  "BasePath": "_content/MovieRecommendations.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

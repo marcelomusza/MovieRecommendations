@@ -1,0 +1,17 @@
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\bin\Debug\net6.0\MovieRecommendations.Infrastructure.deps.json
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\bin\Debug\net6.0\MovieRecommendations.Infrastructure.runtimeconfig.json
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\bin\Debug\net6.0\MovieRecommendations.Infrastructure.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\bin\Debug\net6.0\ref\MovieRecommendations.Infrastructure.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\bin\Debug\net6.0\MovieRecommendations.Infrastructure.pdb
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\bin\Debug\net6.0\MovieRecommendations.Domain.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\bin\Debug\net6.0\MovieRecommendations.Domain.pdb
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.AssemblyInfo.cs
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.csproj.CopyComplete
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\ref\MovieRecommendations.Infrastructure.dll
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.pdb
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Infrastructure\obj\Debug\net6.0\MovieRecommendations.Infrastructure.genruntimeconfig.cache
