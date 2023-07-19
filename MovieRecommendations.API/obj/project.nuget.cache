@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xEoiLktRasT2ZaPcFeDO6OjCKcZW17YIJunlokoxObZWCGL/KPmJ0q49v/NcpvrkwyqCoAzZcxxXBeb+n1t6dg==",
+  "dgSpecHash": "YhsHiY4XbGxtbK1N3dmebMB1XuT4qSzoFBaVgnJn91CA61jymg6F5uzDgpZ9n7g+747Wwhjymh3RcURfsw5EpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations\\MovieRecommendations.API.csproj",
+  "projectFilePath": "C:\\Users\\Marce\\source\\repos\\Training\\MovieRecommendations\\MovieRecommendations.API\\MovieRecommendations.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marce\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Marce\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

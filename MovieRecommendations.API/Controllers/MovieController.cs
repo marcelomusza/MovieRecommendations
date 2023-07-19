@@ -1,7 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using MovieRecommendations.API.Models;
+using MovieRecommendations.Application.Commands;
 using MovieRecommendations.Application.Validators;
-using MovieRecommendations.Application.Queries;
 
 namespace MovieRecommendations.API.Controllers
 {
@@ -15,21 +16,22 @@ namespace MovieRecommendations.API.Controllers
         {
             _mediator = mediator;
         }
-
-        [HttpGet("users/{userId}/recommended")]
-        public async Task<IActionResult> GetRecommendedMovies(int userId)
+        
+        [HttpPost]
+        public async Task<IActionResult> CreateMovie([FromBody] MovieDto dto)
         {
-            var query = new GetRecommendedMoviesQuery(userId);
+            var cmd = new MovieCreateCommand { Title = dto.Title };
 
-            var queryValidator = new GetRecommendedMoviesQueryValidator();
-            var validationResult = await queryValidator.ValidateAsync(query);
+            var queryValidator = new MovieCreateCommandValidator();
+            var validationResult = await queryValidator.ValidateAsync(cmd);
 
             if (!validationResult.IsValid)
                 return BadRequest(validationResult.Errors);
 
-            var result = await _mediator.Send(query);
+            var result = await _mediator.Send(cmd);
 
-            return Ok(result);
+            return Created($"movies/{result}", result);
+            
         }
     }
 }

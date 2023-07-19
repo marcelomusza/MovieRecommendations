@@ -9,3 +9,4 @@ C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.D
 C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Domain\obj\Debug\net6.0\MovieRecommendations.Domain.dll
 C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Domain\obj\Debug\net6.0\ref\MovieRecommendations.Domain.dll
 C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Domain\obj\Debug\net6.0\MovieRecommendations.Domain.pdb
+C:\Users\Marce\source\repos\Training\MovieRecommendations\MovieRecommendations.Domain\obj\Debug\net6.0\MovieRecommendations.Domain.csproj.AssemblyReference.cache

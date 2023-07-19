@@ -13,9 +13,9 @@ namespace MovieRecommendations.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public Task AddAsync(Movie book)
+        public  void Add(Movie movie)
         {
-            throw new NotImplementedException();
+            _dbContext.Movies.Add(movie);
         }
 
         public Task DeleteAsync(int id)
@@ -38,6 +38,11 @@ namespace MovieRecommendations.Infrastructure.Repositories
         public Task UpdateAsync(Movie book)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task SaveChangesAsync()
+        {
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

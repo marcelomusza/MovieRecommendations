@@ -6,8 +6,9 @@ namespace MovieRecommendations.Domain.Interfaces
     {
         Task<Movie> GetByIdAsync(int id);
         Task<IEnumerable<Movie>> GetAllAsync();
-        Task AddAsync(Movie book);
+        void Add(Movie movie);
         Task UpdateAsync(Movie book);
         Task DeleteAsync(int id);
+        Task SaveChangesAsync();
     }
 }
