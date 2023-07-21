@@ -3,7 +3,7 @@
 
 The importance of this exercise is to implement a fully working Rest API solution, which is able to handle the creation of Users, creation of Movies, and to provide the said logic to recommend movies.
 
-** More CRUD operations are welcome! ** Feel free to contribute to this repository with your examples, and practice during the process!
+**More CRUD operations are welcome!** Feel free to contribute to this repository with your examples, and practice during the process!
 
 This is a practical exercise to improve your coding skills in terms of
 - Coding best practices
