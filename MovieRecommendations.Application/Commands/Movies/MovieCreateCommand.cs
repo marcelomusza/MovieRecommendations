@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace MovieRecommendations.Application.Commands
+namespace MovieRecommendations.Application.Commands.Movies
 {
     public class MovieCreateCommand : IRequest<int>
     {

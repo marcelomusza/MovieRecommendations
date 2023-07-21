@@ -2,14 +2,14 @@
 using MovieRecommendations.Domain.Entities;
 using MovieRecommendations.Domain.Interfaces;
 
-namespace MovieRecommendations.Application.Commands
+namespace MovieRecommendations.Application.Commands.Movies
 {
     public class MovieCreateCommandHandler : IRequestHandler<MovieCreateCommand, int>
     {
         private readonly IMovieRepository _movieRepository;
-        public MovieCreateCommandHandler(IMovieRepository MovieRepository)
+        public MovieCreateCommandHandler(IMovieRepository movieRepository)
         {
-            _movieRepository = MovieRepository;
+            _movieRepository = movieRepository;
         }
 
         public async Task<int> Handle(MovieCreateCommand request, CancellationToken cancellationToken)
@@ -20,7 +20,7 @@ namespace MovieRecommendations.Application.Commands
                 Title = request.Title,
             };
 
-            _movieRepository.Add(movie);
+            await _movieRepository.AddAsync(movie);
             await _movieRepository.SaveChangesAsync();
 
             return movie.Id;

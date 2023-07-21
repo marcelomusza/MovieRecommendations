@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using MovieRecommendations.Application.Commands;
+using MovieRecommendations.Application.Commands.Movies;
 
 namespace MovieRecommendations.Application.Validators
 {

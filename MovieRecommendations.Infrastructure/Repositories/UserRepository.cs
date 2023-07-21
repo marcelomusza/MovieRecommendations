@@ -35,5 +35,11 @@ namespace MovieRecommendations.Infrastructure.Repositories
         {
             throw new NotImplementedException();
         }
+
+        //There is surely a better way to handle this right? :)
+        public async Task SaveChangesAsync()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
     }
 }

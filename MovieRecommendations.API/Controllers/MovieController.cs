@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MovieRecommendations.API.Models;
-using MovieRecommendations.Application.Commands;
+using MovieRecommendations.Application.Commands.Movies;
 using MovieRecommendations.Application.Validators;
 
 namespace MovieRecommendations.API.Controllers

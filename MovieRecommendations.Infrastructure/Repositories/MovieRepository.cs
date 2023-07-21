@@ -13,9 +13,9 @@ namespace MovieRecommendations.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public  void Add(Movie movie)
+        public async Task AddAsync(Movie movie)
         {
-            _dbContext.Movies.Add(movie);
+            await _dbContext.Movies.AddAsync(movie);
         }
 
         public Task DeleteAsync(int id)
@@ -40,6 +40,7 @@ namespace MovieRecommendations.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
+        //There is surely a better way to handle this right? :)
         public async Task SaveChangesAsync()
         {
             await _dbContext.SaveChangesAsync();
